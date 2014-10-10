@@ -1,12 +1,18 @@
-google_drive_jira_release_note_generator
-========================================
+Google Drive - JIRA Release Notes Generation Script
+==================================================
 
-Generates Release Notes from your JIRA instance via Rest API to a Google Drive Spreadsheet.
+Generates Release Notes from your JIRA instance via Rest API to a Google Drive Spreadsheet.   
+   
+Requirements:   
+- You must have the JIRA REST API enabled in your JIRA instance to use this script.     
+- You need a Goole Drive Account.   
+- You need a Jira Account.  
+- You need the permissions to the JIRA project you want to create the release note for.   
 
-This script gets the issues from JIRA for a specific project to generate the release notes in a Spreadsheet for further usage. Please note, that the name of the headers in the spreadsheet are mapped to the field names of your JIRA Instance, that means the spreadsheet column header Key will result in the colums values PROJECT-1, PROJECT-2, PROJECT-3...
-
-! Please take care that the name of the sheet (not the document) has to be "Release" (without the quotes) !
-
+This script gets the issues from JIRA for a specific project to generate the release notes in a Spreadsheet for further usage. Please note, that the name of the headers in the spreadsheet are mapped to the field names of your JIRA Instance, that means the spreadsheet column header Key will result in the colums values PROJECT-1, PROJECT-2, PROJECT-3...   
+    
+! Please take care that the name of the sheet (not the document) has to be "Release" (without the quotes) !   
+    
 Usage:   
 1. Open Google Drive and create a new spreadsheet.     
 2. Name the Document "ReleaseNotes" and the spreadsheet "Release"    
