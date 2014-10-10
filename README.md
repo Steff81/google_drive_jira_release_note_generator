@@ -20,8 +20,8 @@ Usage:
 4. Open the Script Editor and Insert the script from this repo (Tools -> Scripteditor)  
 5. Save the file in the script Editor and enter any name.     
 6. Save the Sheet and reopen it.    
-7. Now you should see Menu entry JIRA.   
-8. Open JIRA->Settings and fill in all required information.     
+7. Now you should see the menu entry "Jira".   
+8. Open the menu entry Jira->Settings and fill in all required information.     
 9. Give the Sheet the allowed permission if needed.  
 10. After the settings are saved goto to the menu again and choose JIRA->Create Release Notes     
 11. Enter the name as string of the Release you want to create the release notes for (Release must be in the same project that was entered during the setup settings)   
