@@ -11,15 +11,16 @@ Usage:
 1. Open Google Drive and create a new spreadsheet.     
 2. Name the Document "ReleaseNotes" and the spreadsheet "Release"    
 3. In Cell A1 write: Key, in the Cell A2 write: Summary    
-4. Open the Script Editor and Insert the script from this repo    
-4. Save the Sheet and reopen it.    
-5. Give the Sheet the allowed permission if asked.   
-6. Now you should see Menu Entries JIRA     
-7. Open JIRA Settings and fill in all required information   
-8. After the settings are saved goto to the menu again and chosse "Create Release Notes"   
-9. Enter the name of the Release you want to create the release notes for   
+4. Open the Script Editor and Insert the script from this repo (Tools -> Scripteditor)  
+5. Save the file in the script Editor and enter any name
+6. Save the Sheet and reopen it.    
+7. Now you should see Menu Entries JIRA.   
+8. Open JIRA Settings and fill in all required information.     
+9. Give the Sheet the allowed permission if needed.  
+10. After the settings are saved goto to the menu again and choose JIRA -> "Create Release Notes"   
+11. Enter the name as string of the Release you want to create the release notes for (Release must be in the same project that was entered during the setup settings)   
      
-Have fun the issues will appear below the heading.   
+Have fun, the issues data will appear below the corresponding headers.   
     
 You can extend the release note with all available fields by adding a new header field   
 The name of the heading have to match the field name in JIRA.    
