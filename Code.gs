@@ -1,7 +1,7 @@
 /* 
 This script gets the issues from JIRA for a specific project to generate the release notes in a Spreadsheet for further usage.
 Please note, that the name of the headers in the spreadsheet are mapped to the field names of your JIRA Instance,
-that means the spreadsheet column header Key will result in the colums values PROJECT-1, PROJECT-2, PROJECT-3...
+that means the spreadsheet column header Key will result in the colums values ISSUE-1, ISSUE-2, ISSUE-3...
 ! Please take care that the name of the sheet (not the document) has to be "Release" (without the quotes) !
 */
 
