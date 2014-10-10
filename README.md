@@ -7,7 +7,7 @@ Requirements:
 - You must have the JIRA REST API enabled in your JIRA instance to use this script.     
 - You need a Goole Drive Account.   
 - You need a Jira Account.  
-- You need the permissions to the JIRA project you want to create the release note for.   
+- You need the permissions to the JIRA project you want to create the release notes for.   
 
 This script gets the issues from JIRA for a specific project to generate the release notes in a Spreadsheet for further usage. Please note, that the name of the headers in the spreadsheet are mapped to the field names of your JIRA Instance, that means the spreadsheet column header Key will result in the colums values ISSUE-1, ISSUE-2, ISSUE-3...   
     
@@ -28,9 +28,9 @@ Usage:
      
 Have fun, the issues data will appear below the corresponding headers.   
     
-You can extend the release note with all available fields by adding a new header field   
-The name of the heading have to match the field name in JIRA.    
-It is also possible to add customFields to the header.   
+You can extend the release notes with all available fields of JIRA by adding a new header field.   
+The name of the header in the spreadsheet (1st row) must match with the field name in JIRA.    
+It is also possible to add customFields from JIRA to the header you only have to find out the name of the field in JIRA.      
 
 Your spreadsheet will look like this:  
 ![Spreadsheet](http://steffenedinger.de/wordpress/wp-content/uploads/2014/10/Schnappschuss-2014-10-10-19.55.34.png "Spreadsheet")
