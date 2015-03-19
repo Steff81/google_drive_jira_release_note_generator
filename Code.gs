@@ -87,7 +87,12 @@ function getDataForAPI(path) {
               "Content-Type":"application/json", 
               "method": "GET",
               "headers": {"Authorization": digestfull},
-              "muteHttpExceptions": true
+              "muteHttpExceptions": true,
+              // set to false if you don't want the certificate to be checked
+              // in case of self signed ssl certificates for example
+              "validateHttpsCertificates" : true,
+              // if you need a reverse proxy this setting may be helpful
+              "followRedirects" : true
              };
   
   var response = UrlFetchApp.fetch(url, headers);
